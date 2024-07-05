@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.modal-image {
+  width: 1112px;
+  height: 640px;
+}
+
+.modal {
+  background-color: rgba(46, 47, 66, 0.8);
+}
